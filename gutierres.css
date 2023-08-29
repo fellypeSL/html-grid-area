@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.container-grid{
+    /*transformando em grid*/
+    /*decdisplay: grid;larando a quantidade de colunas*/
+    /*grid-template-columns: 100px 100px;
+    grid-template-columns: repeat(4, 20%);*/
+    /*utilidade de medida ifracionada
+    aqui vai (fracionar) em duas partes iguais*/
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+    /* usando o auto-fit */
+    /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+    
+     
+
+
+
+}

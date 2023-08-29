@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+
+.container-grid{
+    display: grid; 
+    grid-template-columns: 250px, 250px;
+    border: 1px solid;
+    grid-template-areas: 
+        "header header" /* os nomes são iguais, por que eu quero que pega uma linha inteira;*/
+        "meio meio2" /* aqui vai ter, duas imagens*/
+        "meiob meiob" /* os nomes são iguais pq eu quero que pega uma linha inteira*/
+        "footer footer" /* os nomes são iguais pq eu quero que pega uma linha inteira*/
+
+}
+
+.img1{
+     grid-area: header;
+}
